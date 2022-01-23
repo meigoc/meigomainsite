@@ -1,0 +1,176 @@
+.JeggyBotInviteLink {
+  color: white;
+  margin-top: 50px;
+}
+.mainPage {
+  background-color: #23232a;
+  height: 650px;
+}
+.JeggyBotDesc {
+  color: white;
+  font-size: 20px; 
+  font-weight: 400;
+}
+.JeggyBotAvatar {
+  width: 200px;
+  border: 5px solid #1e1e23;
+  box-shadow: 0 0 5px black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.features {
+  width: 100%;
+  min-width: 400px;
+  padding: 10px;
+  text-align: center;
+}
+.buttons {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.features .title {
+  font-weight: 600;
+  font-size: 2.4em;
+  margin-bottom: 30px;
+}
+.features h1 {
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  padding: 0;
+  margin-top: 15px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  gap: 20px;
+  justify-content: center;
+}
+.wrapper-1 {
+  align-items: center;
+  min-width: 400px;
+  height: auto;
+  width: 400px;
+  transition-property: all;
+  border-radius: 5px;
+  position: relative;
+  transition: 0.4s;
+  background-color: #25252e;
+  box-shadow: 0 0 5px black;
+  display: flex;
+  padding: 10px;
+}
+.wrapper-1:hover {
+  background-color: #2c2d40;
+  transition: 0.4s;
+}
+.middle-text {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+.wrapper-1 p {
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.jeggybot {
+  padding-top: 50px;
+}
+@media screen and (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .JeggyBotInviteLink {
+    color: white;
+    margin-top: 30px;
+  }
+  .wrapper-1 {
+    min-width: auto;
+    width: auto;
+  }
+  .jeggybot {
+    padding-top: 35px;
+    font-size: 30px;
+  }
+  .JeggyBotDesc {
+    color: white;
+    font-size: 18px;
+    margin: 15px;
+  }
+  .JeggyBotAvatar {
+    width: 170px
+  }
+  .features {
+    padding-top: 20px;
+    min-width: 300px;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .wrapper-1 p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+  }
+  .features .title {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 361px) {
+  .JeggyBotAvatar {
+    width: 150px;
+  }
+  .wrapper-1 p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+  }
+  .features .title {
+    font-size: 1.5em;
+  }
+  .features h1 {
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    padding-top: 15px;
+  }
+  .middle-text h1 {
+    font-size: 20px;
+  }
+  .JeggyBotDesc {
+    font-size: 16px;
+  }
+  .jeggybot {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .wrapper-1 {
+    min-width: auto;
+    width: auto;
+  }
+  .mainPage {
+    height: 670px;
+  }
+  .JeggyBotDesc {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .grid-container{
+    grid-template-columns: 400px 400px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .grid-container{
+    grid-template-columns: 1fr;
+  }
+}
